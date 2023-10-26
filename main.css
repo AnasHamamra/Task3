@@ -1,0 +1,96 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+    overflow: hidden;
+}
+
+.logo .image {
+    float:left;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.list ul{
+    float: right;
+    margin-top: 15px;
+}
+.list ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 15px;
+}
+.list ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.portfolio{
+    text-align: center;
+    
+}
+.upper-portfolio{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.upper-portfolio h2{
+    margin-bottom: 10px;
+}
+.images {
+    overflow: hidden;
+    background-color: lightcoral;
+}
+.t1{
+ position: relative;
+ right: 400px;
+}
+.t2{
+    position: relative;
+    bottom: 40px;
+}
+.t3{
+    position: relative;
+    bottom: 80px;
+    left: 400px;
+}
+
+ .images .image{
+    float: left;
+    width: 33.33%;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}   
+.images .image1{
+    float: left;
+    width: 33.33%;
+    padding-right: 15px;
+    margin-bottom: 120px;
+}   
+.portfolio img{
+    display: block; 
+    width: 100%;
+    
+}
+.t4{
+    position: relative;
+    bottom: 110px;
+    right: 400px;
+}
+.t5{
+    position: relative;
+    bottom: 150px;
+    right: 10px;
+}
+.t6{
+    position: relative;
+    bottom: 190px;
+    left: 400px;
+}
